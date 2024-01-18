@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Poppins:wght@100&display=swap');
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Lobster', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+:root{
+    --green:#009432;
+    --red: #FF1E1E;
+    
+
+}
+
+/* <!--Start Menu bar--> */
+
+body{
+    background-color: #FAF0F0;
+}
+.my1{
+    font-weight: bold;
+    font-size: 20px;
+    background-color:var(--green);
+    color: white;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.my2{
+    font-family:'Poppins', sans-serif;
+}
+
+ul{
+    overflow: hidden;
+}
+
+.logo{
+    
+    display: inline;
+    overflow: hidden;
+    
+}
+
+.my3{
+    margin-top:10px;
+    left:150px;
+    position: relative;
+    float:left;
+}
+
+ul li{
+    color:black;
+    margin-left: 50px;
+    left: 820px;
+    position:relative;
+    margin-top: 30px;
+    float:left;
+    
+}
+
+ul li .nave{
+    font-weight: bold;
+    display: inline-block;
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Poppins', sans-serif;
+
+}
+
+ul li .nave:hover{
+    padding:8px 20px;
+    background-color:var(--red);
+    transition: all 1s;
+    color:white;
+    border-radius: 30px;
+
+}
+
+.my4{
+    display: inline-block;
+    padding-top:10px;
+    padding-right: 15px;
+    padding-left:15px;
+    padding-bottom:10px;
+    background-color: var(--red);
+    border-radius: 30px;
+    color:white;
+}
+
+/* <!--End Menu bar--> */
+
+/* <!--Hero Section start-->   */
+
+.my5{
+    color:var(--red);
+    text-align: center;
+    font-size:40px ;
+    font-weight: bold;
+    margin-top: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.my6{
+    color:black;
+    font-size:30px;
+    margin-left: 150px;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.my7{
+    font-size: 60px;
+    margin-left: 150px;
+    color: var(--red);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top:10px;
+}
+
+.my8{
+    margin-left: 150px;
+    margin-top:10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.my15{
+    margin-top: 40px;
+    margin-left: 150px;
+}
+
+.my10{
+    cursor: pointer;
+    padding:10px 15px;
+    background-color: var(--red);
+    border-radius: 10px;
+    color:white;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.my12{
+    cursor: pointer;
+    padding:8px 15px;
+    background-color:var(--green);
+    border-radius: 10px;
+    color:white;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.my14{
+    cursor: pointer;
+    margin-right: 5px;
+    padding:10px 15px;
+    background-color:var(--red);
+    border-radius: 10px;
+    color:white;
+    font-size: 20px;
+}
+
+marquee{
+    margin-top: 10px;
+}
+
+.hero{
+    overflow: hidden;
+}
+
+.my16{
+    margin-top: 30px;
+    float:right;
+    margin-right: 150px;
+    border: 10px solid #FCEBA1;
+    border-radius: 20px;
+}
+
+/* <!--Hero Section End--> */
+
+/* <!--course Section Start--> */
+
+.my17{
+    font-family: 'Lobster', sans-serif;
+    color: var(--green);
+    font-size: 60px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.boxes{
+    overflow: hidden;
+}
+.box{
+   
+    padding:20px;
+    border-radius: 20px;
+    position:relative;
+    left:120px;
+    right:120px;
+    margin-left:30px;
+    margin-top:50px;
+    width:245px;
+    height:365px;
+    border:1px solid black;
+    background-color: white;
+    float:left;
+}
+
+.box:hover{
+    box-shadow: 0px 26px 55px -9px rgba(155,155,155,1),
+0px 5px 14px 0px rgba(0,0,0,0.18);
+}
+
+
+.text{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.paragraph{
+    margin-top:10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.link{
+    text-align: center;
+    
+}
+
+.see{
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    padding:3px 12px;
+    background-color: var(--red);
+    color:white;
+}
+
+.see:hover{
+    color: var(--red);
+    background-color: white;
+    border:0px;
+}
+
+/* <!--course Section End--> */
+
+/* <!--about section start--> */
+
+.my19{
+    background-color: white;
+}
+
+
+.my20{ 
+margin-top: 50px;
+font-family: 'Lobster', sans-serif;
+font-size: 60px;
+margin-top: 150px;
+text-align: center;
+color: var(--green);
+}
+
+.my21{
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.my23{
+    padding: 7px 20px;
+    background-color: var(--green);
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.my24{
+    overflow: hidden;
+}
+.my25{
+    font-family: 'Lobster', sans-serif;
+    color: var(--green);
+    font-size: 60px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.my26{
+    color: var(--red);
+    margin-top: 160px;
+    margin-left: 150px;
+    font-size: 40px;
+}
+
+.my27{
+    color: var(--green);
+    font-size: 20px;
+    margin-left: 150px;
+}
+.my28{
+    margin-top: 30px;
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+.my30{
+    padding: 7px 15px;
+    background-color: var(--green);
+    margin-top: 20px;
+    margin-left: 150px;
+    border-radius: 20px;
+    color: white;
+}
+
+.my31{
+    float: right;
+    position:relative;
+    top: 50px;
+    right: 120px;
+    border: 10px solid #FCEBA1;
+    border-radius: 20px;
+
+}
+
+.my40{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Lobster', sans-serif;
+    color: var(--green);
+    margin-top: 100px;
+}
+.my42{
+    margin: 20px;
+    border-radius: 20px;
+}
+
+/* <!--about section End--> */
+
+/* <!--footer Start--> */
+
+.my50{
+    overflow: hidden;
+    margin-top: 100px;
+    background-color: black;
+}
+
+.my51{
+    margin-left: 150px;
+    float: left;
+}
+
+.my52{
+    margin-top: 80px;
+}
+
+.my53{
+    color: var(--green);
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.my54{
+    color: var(--green);
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.my55{
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+.my56{
+    color: var(--green);
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.my57{
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+.my58{
+    color: var(--green);
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.my59{
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+.my60{
+    color: var(--green);
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.my61{
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+.my62{
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+}
+
+.my63{
+    position: relative;
+    top:20px;
+    margin-top: 10px;
+}
+
+.my64{
+    margin-bottom: 150px;
+    display:inline-block;
+    font-size: 20px;
+    color: white;
+}
+
+/* .my65{
+    display:
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+} */
+
+.my70{
+    float: right;
+    margin-right: 150px;
+
+}
+
+.my71{
+    margin-top: 80px;
+    color: var(--green);
+    font-size: 30px;
+}
+
+.my72{
+    color: white;
+    font-size: 40px;
+   margin-top: 10px;
+}
+
+.my74{
+    margin-top:10px;
+    color: white;
+    font-size: 20px;
+}
+.my75{
+    margin-top:10px;
+    color: white;
+    font-size: 20px;
+}
+.my76{
+    margin-top:10px;
+    color: white;
+    font-size: 20px;
+}
+.my77{
+    margin-top:10px;
+    color: white;
+    font-size: 20px;
+}
+.my78{
+    margin-top:10px;
+    color: white;
+    font-size: 20px;
+}
+.my79{
+    margin-top:10px;
+    color: white;
+    font-size: 20px;
+}
+.my80{
+    margin-top:10px;
+    color: white;
+    font-size: 20px;
+}
+.my81{
+    margin-top:10px;
+    color: white;
+    font-size: 20px;
+}
+.my82{
+    margin-top:10px;
+    color: white;
+    font-size: 20px;
+}
+
+.my83{
+    margin-top:10px;
+    color: white;
+    font-size: 20px;
+}
+.my84{
+    margin-top:10px;
+    color: white;
+    font-size: 20px;
+}
+
+/* <!--footer end--> */
